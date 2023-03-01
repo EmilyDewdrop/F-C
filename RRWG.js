@@ -2,9 +2,6 @@
 const dateElement = document.querySelector(".date");
 
 
-/**
- * @param {Date} date
- */
 function formatDate(date) {
   const DAYS = [
     "Sunday",
@@ -37,4 +34,5 @@ function formatDate(date) {
 
 setInterval(() => {
   const now = new Date();
-
+  dateElement.textContent = formatDate(now);
+}, 200);
