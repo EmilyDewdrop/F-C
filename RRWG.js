@@ -27,9 +27,9 @@ function formatDate(date) {
     "December"
   ];
 
-  return `${DAYS[date.getDay()]}, ${
+  return `${DAYS[date.getDay()]}, ${date.getDate()}  ${
     MONTHS[date.getMonth()]
-  } ${date.getDate()} ${date.getFullYear()}`;
+  } ${date.getFullYear()}`;
 }
 
 setInterval(() => {
