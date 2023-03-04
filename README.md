@@ -15,7 +15,7 @@ This webpages was created for two reasons: one was to meet the requirements for 
 
 Much of this website was changed and improved as I became more competent in coding. This led to several frustrations, particularly around moving from what was an unresponsive website to a responsive one, and putting in flexboxes around the existing content. I am sure this website contains code that doesn't actaully have any purpose, and I know there are ways I built things at the beginning that were more complicated than they needed to be (for example, setting padding or margins for each side of an object individually). There are a few things I tried on the site which I later removed because I couldn't get them to work, these include:
 
-- longer description of the latest episode in the hover sections (I wasn't able to get these to shrink when the boxes resized
+- longer description of the latest episode in the hover sections (I wasn't able to get these to shrink when the boxes resized)
 - a fixed header (I was able to get this to work, but it required a lot of media queries to constantly change the padding for the text below it and I found the inconsistency of sizing unattractive)
 
 While I am very happy with this project for the purposes of my Founders & Coders application, there is considerably more I'd like to do with the project and eventually make it into a live, fully functional website. Any advice or collaboration on that would be warmly welcomed.
