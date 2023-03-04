@@ -16,24 +16,26 @@ header{
 }
 
 .name{
-  flex-shrink: 0;
+  flex-shrink: 2;
+  flex-grow: 1;
 }
 
 .listmenu{
 flex-shrink: 1;
+flex-grow: 2;
 }
+
 body{
     background-color: bisque;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
 }
 h1{
-  font-size: 3rem;
   color: #CC0000;
-  width: 100%;
-  margin-left: 20px;
-  margin-top: 11px;
-  margin-bottom: 0px;
+  font-size: 3rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0.1rem;
+  margin-left: 1rem;
 }
 
 
@@ -52,14 +54,14 @@ h3 {
 .description {
     font-size: 1.6rem;
     color: bisque;
-    padding-right: 10%;
+    margin-right: 6rem;
     padding-left: 1%;
     padding-bottom: 4%;
     padding-top: 1%;
 }
 
 .logo{
-    width: 50%;
+    width: 80%;
     padding-left: 10%;
     padding-right: 5%;
     padding-top: 10%;
@@ -76,6 +78,7 @@ li {
     background-color: #CC0000;
     padding-top: 3px;
     padding-bottom: 4px;
+    margin-bottom: 0.1rem
   }
 
   ul{
@@ -88,19 +91,23 @@ li {
 .flex-containerdescription{
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  background-color: #CC0000; 
+  background-color: #CC0000;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .descriptionitem{
-  flex-shrink: 0;
-  flex-basis: 30rem;
+  flex-grow: 2;
+  flex-shrink: 1;
+  max-width: 60rem;
 }
 
 .logoitem{
-  flex-shrink: 0;
-  flex-basis: 50rem;
+  flex-grow: 1;
+  flex-shrink: 1;
+  max-width: 30rem;
+}
 }
 
 h4{
